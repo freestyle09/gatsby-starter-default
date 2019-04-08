@@ -36,7 +36,7 @@ const Layout = ({ children }) => (
         >
           <main>{children}</main>
           <footer>
-            © {new Date().getFullYear()}, Built with
+            &copy; {new Date().getFullYear()}, Built with
             {` `}
             <a href="https://www.gatsbyjs.org">Józef Rzadkosz</a>
           </footer>
